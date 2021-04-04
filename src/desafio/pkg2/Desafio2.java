@@ -30,9 +30,9 @@ public class Desafio2 {
      */
     public static void main(String[] args) throws IOException {
         try {
-            arq = new FileWriter("./src/Saida.txt");
+            arq = new FileWriter("./src/prog-check.txt");
             pw = new PrintWriter(arq);
-            scan = new Scanner(new File("./src/teste.txt"), "UTF-8");
+            scan = new Scanner(new File("./src/prog.txt"), "UTF-8");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
